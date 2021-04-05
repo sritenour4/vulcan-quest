@@ -1,9 +1,9 @@
-// placeholder for IStatue interface
-
-export interface IStatues {
-    id: number,
+export interface IStatue {
+    id: string,
+    location: string,
     title: string,
-    content: string,
-    authorid: number,
-    name: string;
+    information: string,
+    artist: string,
+    sponsor: string
 }
+

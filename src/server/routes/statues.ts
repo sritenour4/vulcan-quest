@@ -20,17 +20,17 @@ router.get('/:id?', async (req, res) => {
     }
 });
 
-// template for other methods that will need additional modification if needed
-// router.post('/add', async (req, res) => {
-//     const newStatue = req.body;
-//     try {
-//         const newStatueRes = await db.statues.post(newStatue.id, newChirp.content, newChirp.location) // modify with statues variables
-//         res.json({ msg: 'added new statue',  newStatueRes});
-//     } catch (error) {
-//         console.log(error);
-//         res.status(500).send(error);
-//     }
-// });
+
+router.post('/add', async (req, res) => {
+    const newStatue = req.body;
+    try {
+        const newStatueRes = await db.statues.post(newStatue.id, newStatue.location, newStatue.title, newStatue.information, newStatue.artist, newStatue.sponsor) 
+        res.json({ msg: 'added new statue',  newStatueRes});
+    } catch (error) {
+        console.log(error);
+        res.status(500).send(error);
+    }
+});
 
 // router.put('/:id', async (req, res) => {
 //     const statueid = req.params.id;
