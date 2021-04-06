@@ -14,7 +14,7 @@ const App: React.FC<AppProps> = (props) => {
 				<Route exact path="/">
 					<Home />
 				</Route>
-				<Route exact path="/details/:id">
+				<Route path="/details/:statueid">
 					<Details />
 				</Route>
 				<Route exact path="/vulcandex/">
