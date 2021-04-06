@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = (props) => {
                             <div className="card-body">
                                 <h5 className="card-title text-center">{statue.title}</h5>
                                 <div className="card-link btn btn-sm btn-outline-primary float-right">
-                                    <Link to={`/details/${statue.id}`}>Read More!</Link>
+                                    <Link to={`/details/${statue.id}`}>Read More!!</Link>
                                 </div>
                             </div>
                         </div>
