@@ -9,6 +9,7 @@ $theme-colors: (
     width: 300px;
     height: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-bottom: 12em;
   }
   
   /* This container is needed to position the front and back side */
@@ -38,7 +39,6 @@ $theme-colors: (
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #fff;
-   
     color: black;
   }
   
@@ -47,6 +47,7 @@ $theme-colors: (
     background-color:#fff;
     color: white;
     transform: rotateY(180deg);
+    margin-bottom: 12em;
   }
 
   .Preview {
@@ -69,12 +70,6 @@ $theme-colors: (
   .row{
     float: left;
   } 
-
-  .aaa {
-    // border: 1px solid aqua;
-    // background-color: aqua;
-    margin-bottom: 12em;
-  }
 
   @media (min-width: 870px) and (max-width: 980px) { 
       .aaa {
