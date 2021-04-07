@@ -1,64 +1,31 @@
 import * as React from 'react';
-import { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './views/Home';
+import Details from './views/Details';
+import Vulcandex from './views/Vulcandex';
 
-/* HOOK REACT EXAMPLE */
-const App = (props: AppProps) => {
-	const [greeting, setGreeting] = useState<string>('');
 
-	useEffect(() => {
-		async function getGreeting() {
-			try {
-				const res = await fetch('/api/hello');
-				const greeting = await res.json();
-				setGreeting(greeting);
-			} catch (error) {
-				console.log(error);
-			}
-		}
-		getGreeting();
-	}, []);
-
+const App: React.FC<AppProps> = (props) => {
 	return (
-		<main className="container my-5">
-			<h1 className="text-primary text-center">Hello {greeting}!</h1>
-		</main>
+		<BrowserRouter>
+			<NavBar />
+			<Switch>
+				<Route exact path="/">
+					<Home />
+				</Route>
+				<Route exact path="/details/:id">
+					<Details />
+				</Route>
+				<Route exact path="/vulcandex/">
+					<Vulcandex />
+				</Route>
+			</Switch>
+		</BrowserRouter>
 	);
 };
 
-interface AppProps {}
-
-/* CLASS REACT EXAMPLE */
-// class App extends React.Component<IAppProps, IAppState> {
-// 	constructor(props: IAppProps) {
-// 		super(props);
-// 		this.state = {
-// 			name: null
-// 		};
-// 	}
-
-// 	async componentDidMount() {
-// 		try {
-// 			let r = await fetch('/api/hello');
-// 			let name = await r.json();
-// 			this.setState({ name });
-// 		} catch (error) {
-// 			console.log(error);
-// 		}
-// 	}
-
-// 	render() {
-// 		return (
-// 			<main className="container my-5">
-// 				<h1 className="text-primary text-center">Hello {this.state.name}!</h1>
-// 			</main>
-// 		);
-// 	}
-// }
-
-// export interface IAppProps {}
-
-// export interface IAppState {
-// 	name: string;
-// }
+interface AppProps { };
 
 export default App;
+
