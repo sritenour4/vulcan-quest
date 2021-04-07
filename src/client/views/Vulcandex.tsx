@@ -22,22 +22,18 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
         <>
 
             <main className="row flex-container">
-                <div className="col-md-3 flip-card">
+                <div className="col-md-auto flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <img src="./assets/CardPreview.PNG" className="Preview" />
-
                         </div>
-
                         <div className="flip-card-back">
                             <img src="./assets/BJCC.PNG" className="BJCC" />
                         </div>
                     </div>
                 </div>
-                {/* </main> */}
 
-                {/* <main className="col-md flex-container"> */}
-                <div className="col-md-3 flip-card">
+                <div className="col-md-auto flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <img src="./assets/CardPreview.PNG" className="Preview" />
