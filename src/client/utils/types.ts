@@ -3,7 +3,7 @@ export interface IStatue {
     location: string,
     title: string,
     information: string,
-    artist: string,
+    artists: string,
     sponsor: string
 }
 
