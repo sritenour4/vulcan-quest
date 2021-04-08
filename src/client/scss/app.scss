@@ -1,42 +1,23 @@
 $theme-colors: (
-    'primary': #0091ea //Covalence Blue!  :D
+  "primary": #0091ea //Covalence Blue!  :D,,
 );
 
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
-.full {
-    height: 100%;
-    width: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: cover;
-    opacity: 0.4;
+.fullBgCoverImg {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 .coverImgContainer {
-    height: 600px;
-    width: 100vw;
-    background: black;
-    overflow: hidden;
+  height: 600px;
+  width: 100vw;
+  overflow: hidden;
 }
-
-.full-bg-img {
-    background-color: rgba(0, 0, 0, 0.25);
-    /* max-width: 100%; */
-    height: auto ;
-}
-
-// .coverImgContainer {
-//     height: 600px;
-//     width: 100vw;
-//     background: black;
-//     overflow: hidden;
-//     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-//     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
-//     background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
-// }
-
-
