@@ -18,7 +18,11 @@ const Details: React.FC<DetailsProps> = props => {
     }, []);
 
     return (
-        // <h1>asdfasdfasdf</h1>
+        <>
+        <header className="row">
+                <img className="logo" src="/assets/vulcan-quest-logo.PNG" alt="vulcan-quest-logo" />
+            </header>
+            
         <main className="container">
             <section className="row">
                 <div className="col-12">
@@ -39,6 +43,7 @@ const Details: React.FC<DetailsProps> = props => {
                 </div>
             </section>
         </main>
+        </>
     );
 };
 
