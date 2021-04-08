@@ -33,24 +33,13 @@ const Home: React.FC<HomeProps> = (props) => {
                     </div>
                 ))} */}
 
-        <div>
-          <div>
-            <h1>Cover Img</h1>
-          </div>
+        <div className="coverImgContainer">
           <img
-            className="smallImgMedia full-bg-img"
+            className="bgCoverImg full-bg-img full"
             id="picblock"
             src="/assets/home_vulcan_image.jpeg"
             alt="Vulcan Statue Image"
           />
-          {/* <img className="tallImgMedia" src={tallImage} /> */}
-          {/* <div className="boxMainImage">
-                    </div> */}
-
-          {/* <div className="App"> */}
-          {/* <div className="box">
-                        </div> */}
-          {/* </div> */}
         </div>
       </main>
     </div>
