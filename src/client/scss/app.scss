@@ -1,5 +1,29 @@
 $theme-colors: (
-    'primary': #0091ea //Covalence Blue!  :D
+    'primary': #0091ea 
+    //Covalence Blue!  :D
 );
 
+
+
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+footer {
+    background-color: #d05f3d;    
+}
+
+nav {
+    background-color: #d05f3d;
+    
+}
+
+ a {
+    color: #181102;
+}
+
+a:hover {
+    color: #dfa831;
+}
+
+footer.h6 {
+   color: #0a3176;
+}
