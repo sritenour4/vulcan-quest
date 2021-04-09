@@ -4,8 +4,8 @@ import db from '../db';
 const router = Router();
 
 // GET /api/statues
-router.get('/:id?', async (req, res) => {
-    const statueid = req.params.id;
+router.get('/:statueid?', async (req, res) => {
+    const statueid: string = req.params.statueid;
     try {
         if (statueid) {
             const [statue] = await db.statues.one(statueid);
@@ -23,7 +23,7 @@ router.get('/:id?', async (req, res) => {
 router.post('/add', async (req, res) => {
     const newStatue = req.body;
     try {
-        const newStatueRes = await db.statues.post(newStatue.id, newStatue.location, newStatue.title, newStatue.information, newStatue.artist, newStatue.sponsor) 
+        const newStatueRes = await db.statues.post(newStatue.id, newStatue.location, newStatue.title, newStatue.information, newStatue.artists, newStatue.sponsor) 
         res.json({ msg: 'added new statue',  newStatueRes});
     } catch (error) {
         console.log(error);

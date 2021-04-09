@@ -32,7 +32,6 @@ const Home: React.FC<HomeProps> = (props) => {
                         </div>
                     </div>
                 ))};
-               
             </main>
         </div>
 

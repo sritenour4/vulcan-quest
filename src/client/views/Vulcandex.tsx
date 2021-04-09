@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { IStatue } from '../utils/types';
-// import flipcard from '../components/flipcard'
+
 
 
 
@@ -28,7 +28,6 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
                             <img src="./assets/CardPreview.PNG" className="Preview" />
 
                         </div>
-
                         <div className="flip-card-back">
                             <img src="./assets/BJCC.PNG" className="BJCC" />
                         </div>
@@ -68,11 +67,9 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
                             <img src="./assets/CardPreview.PNG" className="Preview" />
 
                         </div>
-
                         <div className="flip-card-back">
                             <img src="./assets/BhamSouthern.PNG" className="BhamSouthern" />
                         </div>
-
                     </div>
                 </div>
             </main>
