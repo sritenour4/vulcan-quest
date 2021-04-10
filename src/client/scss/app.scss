@@ -4,16 +4,25 @@ $theme-colors: (
 );
 
 
+.logo {
+    max-width: 25%;
+    height: auto;
+        
+}
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 footer {
-    background-color: #d05f3d;    
+    background-color: #d05f3d;
+    border: 2px solid #dfa831;
+        
 }
 
 nav {
-    background-color: #d05f3d;
+    background-color: #d05f3d;;
+    border: 2px solid #dfa831;
     
+
 }
 
  a {
@@ -26,4 +35,5 @@ a:hover {
 
 footer.h6 {
    color: #0a3176;
+
 }
