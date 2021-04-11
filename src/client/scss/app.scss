@@ -1,5 +1,10 @@
 $theme-colors: (
-  "primary": #0091ea //Covalence Blue!  :D,,,
+    'primary': white,
+    'secondary': #d05f3d, 
+    'info': #dfa831,
+    'danger': #e4dcda,
+    'success': #667b5b, 
+    'warning': #857671
 );
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
@@ -21,7 +26,16 @@ $theme-colors: (
   width: 100vw;
   overflow: hidden;
 }
+
 .logo {
-  max-width: 25%;
-  height: auto;
+    max-width: 30%;
+    height: auto;            
 }
+
+// .card-img-top {
+//     width: 100%; 
+//     height: auto;
+//     object-fit: cover; 
+// }
+
+
