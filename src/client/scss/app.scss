@@ -9,6 +9,7 @@ $theme-colors: (
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+<<<<<<< HEAD
 .fullBgCoverImg {
   height: 100%;
   width: auto;
@@ -39,3 +40,82 @@ $theme-colors: (
 // }
 
 
+=======
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 12em;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 180%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #fff;
+  color: white;
+  transform: rotateY(180deg);
+  margin-bottom: 12em;
+}
+
+.Preview {
+  height: 109%;
+  width: 105%;
+}
+
+.BhamSouthern,
+.BhamZoo,
+.BotanicalGardens,
+.BJCC {
+  height: 109%;
+  width: 105%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .flip-card,
+  .flip-card-back {
+    // centers the cards on small mobile devices
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+>>>>>>> d03d700542bc789ada379f7ac8458e89a721de5d

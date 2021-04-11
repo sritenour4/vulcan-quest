@@ -1,6 +1,6 @@
-import * as React from "react";
-import { IStatue } from "../utils/types";
-import { Link } from "react-router-dom";
+import * as React from 'react';
+import { IStatue } from '../utils/types';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC<HomeProps> = (props) => {
 
@@ -53,6 +53,6 @@ const Home: React.FC<HomeProps> = (props) => {
   );
 };
 
-interface HomeProps {}
+interface HomeProps { }
 
 export default Home;
