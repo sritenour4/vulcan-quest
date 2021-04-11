@@ -113,6 +113,28 @@ $theme-colors: (
   float: left;
 }
 
+footer {
+    background-color: #d05f3d;
+    border: 2px solid #dfa831;
+}
+
+nav {
+    background-color: #d05f3d;
+    border: 2px solid #dfa831;
+}
+
+a {
+    color: #0a3176;
+}
+
+a:hover {
+    color: #dfa831;
+}
+
+footer.h6 {
+    color: #0a3176;
+}
+
 @media (max-width: 768px) {
   .flip-card,
   .flip-card-back {

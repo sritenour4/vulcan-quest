@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './views/Home';
 import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
+import Footer from './components/Footer';
 
 
 const App: React.FC<AppProps> = (props) => {
@@ -21,6 +22,7 @@ const App: React.FC<AppProps> = (props) => {
 					<Vulcandex />
 				</Route>
 			</Switch>
+			<Footer />
 		</BrowserRouter>
 	);
 };
