@@ -13,14 +13,11 @@ $theme-colors: (
 .coverImgContainer {
     height: 600px;
     width: 100vw;
-    // width: 700px;
-    // height: 400px;
     overflow: hidden;
     z-index: 0;
 }
 
-.fullBgCoverImg {
-    // height: 100%;
+.fullBgCoverImg { 
     width: auto;
     position: absolute;
     right: 0;
@@ -31,7 +28,6 @@ $theme-colors: (
     opacity: 0.8;
     z-index: 0;
 }
-
 
 .logo {
     max-width: 30%;
@@ -109,18 +105,20 @@ $theme-colors: (
   flex-direction: row;
 }
 
-.row {
+#vulcandexRow {
   float: left;
 }
 
 footer {
     background-color: #d05f3d;
     border: 2px solid #dfa831;
+    z-index: 9999;
 }
 
 nav {
     background-color: #d05f3d;
     border: 2px solid #dfa831;
+    z-index: 9999;
 }
 
 a {
