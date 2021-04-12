@@ -1,10 +1,6 @@
 import * as React from 'react';
 import type { IStatue } from '../utils/types';
 
-
-
-
-
 const Vulcandex: React.FC<VulcandexProps> = (props) => {
     const [statues, setStatues] = React.useState<IStatue[]>([]);
 

@@ -8,7 +8,7 @@ const NavBar: React.FC<NavBarProps> = (props) => {
         exact
         className="font-weight-light mx-5"
         activeClassName="text font-weight-bold"
-        to="/"
+        to="/Home"
       >
         Home
       </NavLink>

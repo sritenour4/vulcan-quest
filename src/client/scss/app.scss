@@ -93,7 +93,40 @@ nav {
 a:hover {
     color: #dfa831;
 }
+.primary{
+ color: #0091ea //Covalence Blue!  :D,,
+} 
+  
 
 footer.h6 {
-   color: #0a3176;
+   color: #0a3176; 
+};
+   
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.fullBgCoverImg {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.coverImgContainer {
+  height: 600px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .flip-card,
+  .flip-card-back {
+    // centers the cards on small mobile devices
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
