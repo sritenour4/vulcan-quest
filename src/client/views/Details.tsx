@@ -36,8 +36,7 @@ const Details: React.FC<DetailsProps> = props => {
                                 <p className="card-text text-center text-warning small">{statue?.information}</p>
                                 <div className="mx-md-5 mt-4 d-flex justify-content-between align-items-center">
                                     <Link className="btn btn-info btn-sm text-primary" to="/">Back to Vulcans</Link>
-                                    <Link className="btn btn-secondary btn-sm" to={`/vulcandex/`}>Vulcandex</Link>
-                                    <Link className="btn btn-success btn-sm" to={`/collectemall/`}>Collect 'Em All</Link>
+                                    <Link className="btn btn-secondary btn-sm" to={`/vulcandex/`}>Vulcandex</Link>                                    
                                 </div>
                             </div>                                
                         </article>                        

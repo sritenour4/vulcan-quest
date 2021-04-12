@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './views/Home';
 import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
-import CollectEmAll from './views/CollectEmAll';
+
 
 
 const App: React.FC<AppProps> = (props) => {
@@ -20,10 +20,7 @@ const App: React.FC<AppProps> = (props) => {
 				</Route>
 				<Route exact path="/vulcandex/">
 					<Vulcandex />
-				</Route>
-				<Route exact path="/collectemall/">
-					<CollectEmAll />
-				</Route>
+				</Route>				
 			</Switch>
 		</BrowserRouter>
 	);
