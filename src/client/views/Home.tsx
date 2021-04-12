@@ -44,8 +44,13 @@ const Home: React.FC<HomeProps> = (props) => {
                             </div>
                         </div>
                     ))}
-                </div>
 
+                </div>
+                <div className="row">
+                    <div className="d-flex flex-fill justify-content-center">
+                        <img className="vulcan-map img-fluid" src={`/assets/vulcan-map.PNG`} alt="vulcan-map" />
+                    </div>
+                </div>
             </main>
         </>
     );

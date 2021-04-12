@@ -14,8 +14,15 @@ $theme-colors: (
     height: auto;            
 }
 
+.vulcan-map {
+    width: 75%;
+    height: auto;   
+    object-fit: cover;         
+}
+
 @media (min-width: 768px) {
-    .cards-home {
+    .cards-home 
+    {
         width: 100%; 
         height: auto;
         object-fit: cover; 
@@ -23,7 +30,8 @@ $theme-colors: (
   }
 
   @media (min-width: 768px) {
-    .card-details {
+    .card-details 
+    {
         width: 85%; 
         height: auto;
         object-fit: cover; 
@@ -31,7 +39,8 @@ $theme-colors: (
   }
 
   @media (min-width: 768px) {
-    .logo {
+    .logo
+    {
         width: 20%; 
         height: auto;
         object-fit: cover; 

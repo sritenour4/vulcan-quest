@@ -39,10 +39,10 @@ const Details: React.FC<DetailsProps> = props => {
                                     <Link className="btn btn-secondary btn-sm" to={`/vulcandex/`}>Vulcandex</Link>
                                     <Link className="btn btn-success btn-sm" to={`/collectemall/`}>Collect 'Em All</Link>
                                 </div>
-                            </div>
-                        </article>
+                            </div>                                
+                        </article>                        
                     </div>
-                </section>
+                </section>                
             </main>
         </>
     );
