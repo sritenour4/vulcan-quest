@@ -4,7 +4,8 @@ $theme-colors: (
     'info': #dfa831,
     'danger': #e4dcda,
     'success': #667b5b, 
-    'warning': #857671,  
+    'warning': #857671,
+    'custom-blue': #485e9a,  
           
 );
 
@@ -13,11 +14,29 @@ $theme-colors: (
     height: auto;            
 }
 
-// .card-img-top {
-//     width: 100%; 
-//     height: auto;
-//     object-fit: cover; 
-// }
+@media (min-width: 768px) {
+    .cards-home {
+        width: 100%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card-details {
+        width: 85%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo {
+        width: 20%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
 
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';

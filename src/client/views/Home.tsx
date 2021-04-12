@@ -16,15 +16,23 @@ const Home: React.FC<HomeProps> = (props) => {
 
     return (
         <>
-            <header className="row d-flex justify-content-center align-items-center">               
-                <img className="logo" src="/assets/vulcan-quest-logo.PNG" alt="vulcan-quest-logo" />               
-            </header>
+            <main className="container">
+                <header className="row d-flex justify-content-center align-items-center">
+                    <img className="logo" src="/assets/vulcan-quest-logo.PNG" alt="vulcan-quest-logo" />
+                </header>
 
-            <div className="d-flex flex-fill m-2">
-                <main className="row justify-content-center">
+                {/* <div className="row d-flex w-75 mx-auto text-custom-blue">
+                    <div className="card-body">
+                        <p>The Vulcans on Parade community art project began in August 2015. Since then, 13 miniature replicas of Vulcan,
+                        have been adopted, painted, and given their own name. Each Vulcan on Parade is an individually painted fiberglass replica of Birmingham’s giant Vulcan statue.
+                        Host sites work with local artists to give each replica a theme that fits the location. The goal of the project was to highlight area visitor attractions.</p>
+                        <p>Join us on a VULCAN QUEST to FIND ALL 13 VULCANS ON PARADE!</p>
+                    </div>
+                </div> */}
 
+                <div className="row cards-home d-flex flex-fill justify-content-center m-2">
                     {statues.map(statue => (
-                        <div className="col-md-3 d-flex p-1 mx-1 mb-3" key={`statue-card-${statue.id}`}>
+                        <div className="col-md-3 d-flex p-1 mx-1 mb-1" key={`statue-card-${statue.id}`}>
                             <div className="card shadow bg-danger">
                                 <img className="card-img-top img-fluid" src={`/assets/vulcan-${statue.id}.PNG`} alt="vulcan"></img>
                                 <div className="card-body">
@@ -36,8 +44,9 @@ const Home: React.FC<HomeProps> = (props) => {
                             </div>
                         </div>
                     ))}
-                </main>
-            </div>
+                </div>
+
+            </main>
         </>
     );
 };
