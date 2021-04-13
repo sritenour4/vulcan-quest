@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './views/Home';
 import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
+import Footer from './components/Footer';
 // import Login from './views/Login';
 // import Signup from './views/Signup';
 
@@ -25,10 +26,11 @@ const App: React.FC<AppProps> = (props) => {
 				<Route exact path="/details/:statueid">
 					<Details />
 				</Route>
-				<Route exact path="/vulcandex/">
+				<Route exact path="/vulcandex">
 					<Vulcandex />
 				</Route>
 			</Switch>
+			<Footer />
 		</BrowserRouter>
 	);
 };
