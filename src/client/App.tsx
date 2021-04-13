@@ -7,6 +7,7 @@ import Vulcandex from './views/Vulcandex';
 import Footer from './components/Footer';
 
 
+
 const App: React.FC<AppProps> = (props) => {
 	return (
 		<BrowserRouter>
@@ -20,7 +21,7 @@ const App: React.FC<AppProps> = (props) => {
 				</Route>
 				<Route exact path="/vulcandex">
 					<Vulcandex />
-				</Route>
+				</Route>				
 			</Switch>
 			<Footer />
 		</BrowserRouter>

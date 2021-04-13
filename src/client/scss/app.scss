@@ -4,10 +4,16 @@ $theme-colors: (
     'info': #dfa831,
     'danger': #e4dcda,
     'success': #667b5b, 
-    'warning': #857671
+    'warning': #857671,
+    'custom-blue': #485e9a,  
+          
 );
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: #f8f8f8;
+}
 
 // Background Image on homepage
 .coverImgContainer {
@@ -86,6 +92,38 @@ $theme-colors: (
   transform: rotateY(180deg);
   margin-bottom: 12em;
 }
+.vulcan-map {
+    width: 75%;
+    height: auto;   
+    object-fit: cover;         
+}
+
+@media (min-width: 768px) {
+    .cards-home 
+    {
+        width: 100%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card-details 
+    {
+        width: 85%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo
+    {
+        width: 20%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
 
 .Preview {
   height: 109%;
