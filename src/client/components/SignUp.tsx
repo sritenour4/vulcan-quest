@@ -8,23 +8,23 @@ export default class SignUp extends Component {
                 <h3 className="text-center">Register</h3>
 
                 <div className="form-group d-flex justify-content-center">
-                    <label>First name</label>
-                    <input type="text" className="form-control col-sm-4" placeholder="First name" />
+                    {/* <label>First name</label> */}
+                    <input type="text" className="form-control col-sm-5" placeholder="First name" />
                 </div>
 
                 <div className="form-group d-flex justify-content-center">
-                    <label>Last name</label>
-                    <input type="text" className="form-control col-sm-4" placeholder="Last name" />
+                    {/* <label>Last name</label> */}
+                    <input type="text" className="form-control col-sm-5" placeholder="Last name" />
                 </div>
 
                 <div className="form-group d-flex justify-content-center">
-                    <label>Email</label>
-                    <input type="email" className="form-control col-sm-4" placeholder="Enter email" />
+                    {/* <label>Email</label> */}
+                    <input type="email" className="form-control col-sm-5" placeholder="Enter email" />
                 </div>
 
                 <div className="form-group d-flex justify-content-center">
-                    <label>Password</label>
-                    <input type="password" className="form-control col-sm-4" placeholder="Enter password" />
+                    {/* <label>Password</label> */}
+                    <input type="password" className="form-control col-sm-5" placeholder="Enter password" />
                 </div>
 
                 <Link to={`/login`}  type="submit" className="btn btn-dark btn-lg btn-block">Register</Link>
