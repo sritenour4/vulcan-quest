@@ -15,19 +15,19 @@ const Home: React.FC<HomeProps> = (props) => {
 
   return (
     <>
-      <header className="row d-flex justify-content-center align-items-center">
-        <img
-          className="logo"
-          src="/assets/vulcan-quest-logo.PNG"
-          alt="vulcan-quest-logo"
-        />
-      </header>
+      <main className="container">
+        <header className="row d-flex justify-content-center align-items-center">
+          <img
+            className="logo"
+            src="/assets/vulcan-quest-logo.PNG"
+            alt="vulcan-quest-logo"
+          />
+        </header>
 
-      <div className="d-flex flex-fill m-2">
-        <main className="row justify-content-center">
+        <div className="row cards-home d-flex flex-fill justify-content-center m-2">
           {statues.map((statue) => (
             <div
-              className="col-md-3 d-flex p-1 mx-1 mb-3 homepageCards"
+              className="col-md-3 d-flex p-1 mx-1 mb-1"
               key={`statue-card-${statue.id}`}
             >
               <div className="card shadow bg-danger">
@@ -47,16 +47,27 @@ const Home: React.FC<HomeProps> = (props) => {
               </div>
             </div>
           ))}
-
-          <div className="coverImgContainer">
+        </div>
+        <div className="row">
+          <div className="d-flex flex-fill justify-content-center">
             <img
-              className="fullBgCoverImg"
-              src="/assets/home_vulcan_image.jpeg"
-              alt="Vulcan Statue Image"
+              className="vulcan-map img-fluid"
+              src={`/assets/vulcan-map.PNG`}
+              alt="vulcan-map"
             />
           </div>
-        </main>
-      </div>
+        </div>
+
+        <div className="row">
+          <div className="d-flex flex-fill justify-content-center">
+            <img
+              className="vulcan-map img-fluid"
+              src={`/assets/vulcan-map.PNG`}
+              alt="vulcan-map"
+            />
+          </div>
+        </div>
+      </main>
     </>
   );
 };

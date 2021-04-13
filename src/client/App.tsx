@@ -23,10 +23,10 @@ const App: React.FC<AppProps> = (props) => {
 				<Route exact path="/">
 					<Home />
 				</Route>
-				<Route path="/details/:statueid">
+				<Route exact path="/details/:statueid">
 					<Details />
 				</Route>
-				<Route exact path="/vulcandex/">
+				<Route exact path="/vulcandex">
 					<Vulcandex />
 				</Route>
 			</Switch>
