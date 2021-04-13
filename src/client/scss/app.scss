@@ -13,7 +13,7 @@ $theme-colors: (
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
-    background-color: #f8f8f8;
+    background-color: #f8f8f8;  
 }
 
 // Background Image on homepage
@@ -35,6 +35,7 @@ body {
     object-fit: cover;
     // opacity: 0.8;
     // z-index: 0;
+    
 }
 
 .logo {
@@ -153,9 +154,11 @@ body {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #d05f3d;
     border: 2px solid #dfa831;
-    // z-index: 9999;
+    //z-index: 9999;
 }
 
 nav {
