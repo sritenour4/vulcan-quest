@@ -56,7 +56,7 @@ const Details: React.FC<DetailsProps> = (props) => {
                     Back to Vulcans
                   </Link>
                   <Link className="btn btn-secondary btn-sm" to={`/vulcandex`}>
-                    Vulcandex
+                    Add to Vulcandex
                   </Link>
                 </div>
               </div>

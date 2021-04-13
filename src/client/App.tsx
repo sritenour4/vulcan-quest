@@ -5,7 +5,8 @@ import Home from './views/Home';
 import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
 import Footer from './components/Footer';
-
+import Login from './views/Login';
+import Signup from './views/Signup';
 
 
 const App: React.FC<AppProps> = (props) => {
@@ -13,15 +14,21 @@ const App: React.FC<AppProps> = (props) => {
 		<BrowserRouter>
 			<NavBar />
 			<Switch>
+				<Route exact path="/signup">
+					<Signup />
+				</Route>
+				<Route exact path="/login">
+					<Login />
+				</Route>
 				<Route exact path="/">
 					<Home />
 				</Route>
-				<Route path="/details/:statueid">
+				<Route exact path="/details/:statueid">
 					<Details />
 				</Route>
 				<Route exact path="/vulcandex">
 					<Vulcandex />
-				</Route>				
+				</Route>
 			</Switch>
 			<Footer />
 		</BrowserRouter>

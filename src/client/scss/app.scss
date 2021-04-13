@@ -6,6 +6,7 @@ $theme-colors: (
     'success': #667b5b, 
     'warning': #857671,
     'custom-blue': #485e9a,  
+    'custom-light-green': #f2f8f2,
           
 );
 
@@ -99,7 +100,8 @@ body {
 }
 
 @media (min-width: 768px) {
-    .cards-home 
+    .cards-home,
+    .container-fluid
     {
         width: 100%; 
         height: auto;
@@ -108,7 +110,8 @@ body {
   }
 
   @media (min-width: 768px) {
-    .card-details 
+    .card-details,
+    .container-fluid 
     {
         width: 85%; 
         height: auto;
@@ -117,7 +120,8 @@ body {
   }
 
   @media (min-width: 768px) {
-    .logo
+    .logo,
+    .container-fluid
     {
         width: 20%; 
         height: auto;

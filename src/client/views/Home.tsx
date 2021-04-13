@@ -15,15 +15,15 @@ const Home: React.FC<HomeProps> = (props) => {
 
   return (
     <>
-      <header className="row d-flex justify-content-center align-items-center">
-        <img
-          className="logo"
-          src="/assets/vulcan-quest-logo.PNG"
-          alt="vulcan-quest-logo"
-        />
-      </header>
-
       <main className="container">
+        <header className="row d-flex justify-content-center align-items-center">
+          <img
+            className="logo"
+            src="/assets/vulcan-quest-logo.PNG"
+            alt="vulcan-quest-logo"
+          />
+        </header>
+
         <div className="row cards-home d-flex flex-fill justify-content-center m-2">
           {statues.map((statue) => (
             <div
@@ -48,6 +48,16 @@ const Home: React.FC<HomeProps> = (props) => {
             </div>
           ))}
         </div>
+        <div className="row">
+          <div className="d-flex flex-fill justify-content-center">
+            <img
+              className="vulcan-map img-fluid"
+              src={`/assets/vulcan-map.PNG`}
+              alt="vulcan-map"
+            />
+          </div>
+        </div>
+
         <div className="row">
           <div className="d-flex flex-fill justify-content-center">
             <img
