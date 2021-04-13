@@ -7,19 +7,19 @@ export default class Login extends Component {
         return (
             <form>
 
-            <h3>Log in</h3>
+            <h3 className="text-center">Log in</h3>
 
-            <div className="form-group">
+            <div className="form-group text-left d-flex justify-content-center">
                 <label>Email</label>
-                <input type="email" className="form-control" placeholder="Enter email" />
+                <input type="email" className="form-control col-sm-4" placeholder="Enter email" />
             </div>
 
-            <div className="form-group">
+            <div className="form-group d-flex justify-content-center">
                 <label>Password</label>
-                <input type="password" className="form-control" placeholder="Enter password" />
+                <input type="password" className="form-control col-sm-4" placeholder="Enter password" />
             </div>
 
-            <div className="form-group">
+            <div className="form-group d-flex justify-content-center">
                 <div className="custom-control custom-checkbox">
                     <input type="checkbox" className="custom-control-input" id="customCheck1" />
                     <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
