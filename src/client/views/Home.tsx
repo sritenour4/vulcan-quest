@@ -42,6 +42,7 @@ const Home: React.FC<HomeProps> = (props) => {
                   </h5>
                   <div className="card-link text-primary btn btn-sm btn-info float-right">
                     <Link to={`/details/${statue.id}`}>Read More</Link>
+                
                   </div>
                 </div>
               </div>
