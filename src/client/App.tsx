@@ -4,9 +4,9 @@ import NavBar from './components/NavBar';
 import Home from './views/Home';
 import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
-import Footer from './components/NavBar';
+import Footer from './components/Footer';
 import Login from './components/Login';
-import Signup from './components/Signup';
+import SignUp from './components/SignUp';
 
 
 const App: React.FC<AppProps> = (props) => {
@@ -15,7 +15,7 @@ const App: React.FC<AppProps> = (props) => {
 			<NavBar />
 			<Switch>
 				<Route exact path="/signup">
-					<Signup />
+					<SignUp />
 				</Route>
 				<Route exact path="/login">
 					<Login />
