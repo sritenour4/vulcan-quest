@@ -10,13 +10,13 @@ export default class Login extends Component {
             <h3 className="text-center">Log in</h3>
 
             <div className="form-group text-left d-flex justify-content-center">
-                <label>Email</label>
-                <input type="email" className="form-control col-sm-4" placeholder="Enter email" />
+                {/* <label>Email</label> */}
+                <input type="email" className="form-control col-sm-5" placeholder="Enter email" />
             </div>
 
             <div className="form-group d-flex justify-content-center">
-                <label>Password</label>
-                <input type="password" className="form-control col-sm-4" placeholder="Enter password" />
+                {/* <label>Password</label> */}
+                <input type="password" className="form-control col-sm-5" placeholder="Enter password" />
             </div>
 
             <div className="form-group d-flex justify-content-center">
