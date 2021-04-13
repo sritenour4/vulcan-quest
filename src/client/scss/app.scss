@@ -24,27 +24,27 @@ body {
     z-index: 0;
 }
 
-.fullBgCoverImg { 
+#home-container { 
     width: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    // position: absolute;
+    // right: 0;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
     object-fit: cover;
-    opacity: 0.8;
-    z-index: 0;
+    // opacity: 0.8;
+    // z-index: 0;
 }
 
 .logo {
     max-width: 30%;
     height: auto;
-    z-index: 1;
+    // z-index: 1;
 }
 
-.homepageCards {
-    z-index: 1;
-}
+// .homepageCards {
+//     z-index: 1;
+// }
 
 // Flipcard on Vulcandex page
 .flip-card {
@@ -154,13 +154,13 @@ body {
 footer {
     background-color: #d05f3d;
     border: 2px solid #dfa831;
-    z-index: 9999;
+    // z-index: 9999;
 }
 
 nav {
+    position: sticky;
     background-color: #d05f3d;
     border: 2px solid #dfa831;
-    z-index: 9999;
 }
 
 a {
