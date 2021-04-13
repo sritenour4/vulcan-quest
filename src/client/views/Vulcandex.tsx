@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { IStatue } from "../utils/types";
 // import flipcard from '../components/flipcard'
+import ToggleImage from '../components/ToggleImage';
 
 const Vulcandex: React.FC<VulcandexProps> = (props) => {
   const [statues, setStatues] = React.useState<IStatue[]>([]);
@@ -65,6 +66,9 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
               <img src="./assets/CardView_BhamS.PNG" className="BhamSouthern" />
             </div>
           </div>
+        </div>
+        <div>
+            <ToggleImage />            
         </div>
       </main>
     </>
