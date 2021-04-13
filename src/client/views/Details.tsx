@@ -21,7 +21,8 @@ const Details: React.FC<DetailsProps> = props => {
         <>
             <main className="container">
             <header className="row d-flex flex-fill justify-content-center align-items-center">
-                <img className="logo" src="/assets/vulcan-quest-logo.PNG" alt="vulcan-quest-logo" />
+                <img className="logo" src="/assets/vulcan-quest-logo.PNG" alt="vulcan-quest-logo" />              
+
             </header>
 
                 <section className="row justify-content-center align-items-center">
@@ -36,10 +37,11 @@ const Details: React.FC<DetailsProps> = props => {
                                 <p className="card-text text-center text-warning small">{statue?.information}</p>
                                 <div className="mx-md-5 mt-4 d-flex justify-content-between align-items-center">
                                     <Link className="btn btn-info btn-sm text-primary" to="/">Back to Vulcans</Link>
-                                    <Link className="btn btn-secondary btn-sm" to={`/vulcandex/`}>Vulcandex</Link>                                    
+                                    <Link className="btn btn-secondary btn-sm" to={`/vulcandex/`}>Add to Vulcandex</Link>                                    
                                 </div>
                             </div>                                
-                        </article>                        
+                        </article>  
+                                            
                     </div>
                 </section>                
             </main>

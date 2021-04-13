@@ -25,7 +25,7 @@ const Home: React.FC<HomeProps> = (props) => {
                     <div className="card-body">
                         <p>The Vulcans on Parade community art project began in August 2015. Since then, 13 miniature replicas of Vulcan,
                         have been adopted, painted, and given their own name. Each Vulcan on Parade is an individually painted fiberglass replica of Birmingham’s giant Vulcan statue.
-                        Host sites work with local artists to give each replica a theme that fits the location. The goal of the project was to highlight area visitor attractions.</p>
+                        Host sites work with local artists to give each replica a theme that fits the location. The goal of the project is to highlight area visitor attractions.</p>
                         <p>Join us on a VULCAN QUEST to FIND ALL 13 VULCANS ON PARADE!</p>
                     </div>
                 </div> */}
