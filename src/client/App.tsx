@@ -15,25 +15,25 @@ const App: React.FC<AppProps> = (props) => {
 			<Switch>
 				<Route exact path="/signup">
 					<Signup />
-					</Route>
-					<Route exact path="/login">
-						<Login />
-					</Route>
-					<Route exact path="/">
-						<Home />
-					</Route>
-					<Route exact path="/details/:statueid">
-						<Details />
-					</Route>
-					<Route exact path="/vulcandex/">
-						<Vulcandex />
-					</Route>
+				</Route>
+				<Route exact path="/login">
+					<Login />
+				</Route>
+				<Route exact path="/">
+					<Home />
+				</Route>
+				<Route exact path="/details/:statueid">
+					<Details />
+				</Route>
+				<Route exact path="/vulcandex/">
+					<Vulcandex />
+				</Route>
 			</Switch>
 		</BrowserRouter>
 	);
 };
 
-interface AppProps {};
+interface AppProps { };
 
 export default App;
 
