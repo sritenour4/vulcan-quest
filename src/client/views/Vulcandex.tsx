@@ -23,7 +23,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
               <img src="./assets/CardPreview.PNG" className="Preview" />
             </div>
             <div className="flip-card-back">
-              <img src="./assets/BJCC.PNG" className="BJCC" />
+              <img src="./assets/CardView_BJCC.PNG" className="BJCC" />
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
 
             <div className="flip-card-back">
               <img
-                src="./assets/BotanicalGardens.PNG"
+                src="./assets/CardView_Botanical.PNG"
                 className="BotanicalGardens"
               />
             </div>
@@ -50,7 +50,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
             </div>
 
             <div className="flip-card-back">
-              <img src="./assets/BhamZoo.PNG" className="BhamZoo" />
+              <img src="./assets/CardView_BhamZoo.PNG" className="BhamZoo" />
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
             </div>
 
             <div className="flip-card-back">
-              <img src="./assets/BhamSouthern.PNG" className="BhamSouthern" />
+              <img src="./assets/CardView_BhamS.PNG" className="BhamSouthern" />
             </div>
           </div>
         </div>

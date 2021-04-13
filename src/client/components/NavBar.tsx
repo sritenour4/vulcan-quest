@@ -19,6 +19,21 @@ const NavBar: React.FC<NavBarProps> = (props) => {
       >
         Vulcandex
       </NavLink>
+
+      <NavLink
+        className="font-weight-light mx-5"
+        activeClassName="text font-weight-bold"
+        to="/Signup"
+      >
+        Register
+      </NavLink>
+      <NavLink
+        className="font-weight-light mx-5"
+        activeClassName="text font-weight-bold"
+        to="/Login"
+      >
+        Login
+      </NavLink>
     </nav>
   );
 };
