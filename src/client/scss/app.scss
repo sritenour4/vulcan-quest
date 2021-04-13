@@ -1,11 +1,57 @@
 $theme-colors: (
-    'primary': #0091ea //Covalence Blue!  :D
+    'primary': white,
+    'secondary': #d05f3d, 
+    'info': #dfa831,
+    'danger': #e4dcda,
+    'success': #667b5b, 
+    'warning': #857671,
+    'custom-blue': #485e9a,  
+    'custom-light-green': #f2f8f2,
+          
 );
 
-.logo {
-    max-width: 25%;
-    height: auto;
-        
-}
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.logo {
+    max-width: 30%;
+    height: auto;            
+}
+
+.vulcan-map {
+    width: 75%;
+    height: auto;   
+    object-fit: cover;         
+}
+
+@media (min-width: 768px) {
+    .cards-home,
+    .container-fluid
+    {
+        width: 100%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .card-details,
+    .container-fluid 
+    {
+        width: 85%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo,
+    .container-fluid
+    {
+        width: 20%; 
+        height: auto;
+        object-fit: cover; 
+    }
+  }
+
+

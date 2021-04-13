@@ -6,6 +6,7 @@ import Details from './views/Details';
 import Vulcandex from './views/Vulcandex';
 
 
+
 const App: React.FC<AppProps> = (props) => {
 	return (
 		<BrowserRouter>
@@ -19,7 +20,7 @@ const App: React.FC<AppProps> = (props) => {
 				</Route>
 				<Route exact path="/vulcandex/">
 					<Vulcandex />
-				</Route>
+				</Route>				
 			</Switch>
 		</BrowserRouter>
 	);
