@@ -18,7 +18,7 @@ const Details: React.FC<DetailsProps> = (props) => {
 
   return (
     <>
-      <main className="container">
+      <main className="container" id="home">
         <header className="row d-flex flex-fill justify-content-center align-items-center">
           <img
             className="logo"

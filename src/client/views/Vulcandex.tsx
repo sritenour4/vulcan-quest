@@ -16,6 +16,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
 
   return (
     <>
+    <main className="container" id="vulcandex-container">
       {/* 1 */}
       <main className="row flex-container" id="vulcandexRow">
         <div className="col-md-auto flip-card">
@@ -70,6 +71,7 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
         {/* <div className="details-container">
             <ToggleImage />            
         </div> */}
+      </main>
       </main>
     </>
   );
