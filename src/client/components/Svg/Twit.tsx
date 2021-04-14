@@ -5,8 +5,8 @@ const Twit: React.FC<TwitProps> = (props) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-twitter"
-      width="56"
-      height="56"
+      width="45"
+      height="45"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="#3cd5f0"

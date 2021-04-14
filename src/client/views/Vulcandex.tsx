@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { IStatue } from "../utils/types";
 // import flipcard from '../components/flipcard'
+// import ToggleImage from '../components/ToggleImage';
 
 const Vulcandex: React.FC<VulcandexProps> = (props) => {
   const [statues, setStatues] = React.useState<IStatue[]>([]);
@@ -66,6 +67,9 @@ const Vulcandex: React.FC<VulcandexProps> = (props) => {
             </div>
           </div>
         </div>
+        {/* <div className="details-container">
+            <ToggleImage />            
+        </div> */}
       </main>
     </>
   );

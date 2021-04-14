@@ -27,7 +27,7 @@ const Details: React.FC<DetailsProps> = (props) => {
           />
         </header>
 
-        <section className="row justify-content-center align-items-center">
+        <section className="row justify-content-center align-items-center details-container">
           <div className="col-md-6 d-flex flex-fill">
             <article className="card card-details shadow my-2 bg-danger">
               <img
@@ -68,6 +68,6 @@ const Details: React.FC<DetailsProps> = (props) => {
   );
 };
 
-interface DetailsProps {}
+interface DetailsProps { }
 
 export default Details;
