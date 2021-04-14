@@ -28,7 +28,7 @@ export default class Login extends Component {
             </div>
             <div className="row d-flex justify-content-center align-items-center">
             {/* <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button> */}
-            <Link to={`/`}  type="submit" className="btn btn-dark btn-lg">Sign in</Link>
+            <Link to={`/`}  type="submit" className="btn btn-dark">Sign in</Link>
             </div>
 
             <p className="forgot-password text-center">

@@ -28,7 +28,7 @@ export default class SignUp extends Component {
                     <input type="password" className="form-control col-sm-5" placeholder="Enter password" />
                 </div>
                 <div className="row d-flex justify-content-center align-items-center">
-                <Link to={`/login`}  type="submit" className="btn btn-dark btn-lg">Register</Link>
+                <Link to={`/login`}  type="submit" className="btn btn-dark">Register</Link>
                 {/* <button type="submit" className="btn btn-dark btn-lg btn-block">Register</button> */}
                 </div>
                 <p className="forgot-password text-center">
