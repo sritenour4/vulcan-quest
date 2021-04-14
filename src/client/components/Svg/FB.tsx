@@ -5,8 +5,8 @@ const Fb: React.FC<FbProps> = (props) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-facebook"
-      width="56"
-      height="56"
+      width="45"
+      height="45"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="#1f42a3"

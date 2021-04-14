@@ -15,7 +15,7 @@ const Home: React.FC<HomeProps> = (props) => {
 
   return (
     <>
-      <main className="container">
+      <main className="container" id="home">
         <header className="row d-flex justify-content-center align-items-center">
           <img
             className="logo"
@@ -48,7 +48,7 @@ const Home: React.FC<HomeProps> = (props) => {
             </div>
           ))}
         </div>
-        <div className="row">
+        <div className="row details-container">
           <div className="d-flex flex-fill justify-content-center">
             <img
               className="vulcan-map img-fluid"

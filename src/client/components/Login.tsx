@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default class Login extends Component {
     render() {
         return (
+            <div className="container" id="login-container">
             <form>
 
             <h3 className="text-center">Log in</h3>
@@ -25,14 +26,16 @@ export default class Login extends Component {
                     <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
                 </div>
             </div>
-
+            <div className="row d-flex justify-content-center align-items-center">
             {/* <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button> */}
-            <Link to={`/`}  type="submit" className="btn btn-dark btn-lg btn-block">Sign in</Link>
+            <Link to={`/`}  type="submit" className="btn btn-dark btn-lg">Sign in</Link>
+            </div>
 
             <p className="forgot-password text-right">
                 Forgot <a href="#">password?</a>
             </p>
         </form>
+        </div>
         );
     }
 }
