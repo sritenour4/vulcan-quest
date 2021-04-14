@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = (props) => {
         </li>
       </ul>
 
-      <h6 className="card-title  text-center">
+      {/* <h6 className="card-title  text-center">
         Team1 Production<span>&#169;</span>2021
       </h6>
       <h6 className="card-title  text-center">
@@ -50,8 +50,12 @@ const Footer: React.FC<FooterProps> = (props) => {
       </h6>
       <h6 className="card-title text-center">
         If you like what you see contact us.
-      </h6>
+      </h6> */}
 
+      <h6 className="text-center">
+        Team1 Production<span>&#169;</span>2021<span>   &#8226;  Brought to you by Innovate BHAM     &#8226;    If you like what you see contact us.</span>
+      </h6>
+     
       <p>
         <a
           href="https://www.linkedin.com/in/gabrielaustin/" target="_blank"
