@@ -8,7 +8,7 @@ import Vulc from "./Svg/Vulc";
 
 const Footer: React.FC<FooterProps> = (props) => {
   return (
-    <footer className="col-12 fixed-bottom d-flex flex-column justify-content-center align-items-center p-3 shadow">
+    <footer className="col-12 d-flex flex-column justify-content-center align-items-center p-3 shadow">
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a className="nav-link" href="https://www.instagram.com/visitvulcan/" target="_blank">
