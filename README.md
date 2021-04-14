@@ -8,6 +8,3 @@
 - [Josephine Kilcullen](https://www.linkedin.com/in/josephinekilcullen9/)
 - [Shannon Ritenour](https://www.linkedin.com/in/shannon-ritenour/)
 - [Heather Thomas](https://www.linkedin.com/in/heather-thomas-a6747087)
-
-
-
