@@ -31,7 +31,7 @@ export default class Login extends Component {
             <Link to={`/`}  type="submit" className="btn btn-dark btn-lg">Sign in</Link>
             </div>
 
-            <p className="forgot-password text-right">
+            <p className="forgot-password text-center">
                 Forgot <a href="#">password?</a>
             </p>
         </form>
